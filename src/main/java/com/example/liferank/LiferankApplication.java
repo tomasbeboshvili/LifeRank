@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class LiferankApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(LiferankApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(LiferankApplication.class, args);
+    }
 }
