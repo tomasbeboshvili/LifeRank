@@ -12,7 +12,10 @@ CREATE TABLE usuarios (
 -- Tabla: clases
 CREATE TABLE clases (
 	id BIGINT AUTO_INCREMENT PRIMARY KEY,
+	
 	nombre_clase VARCHAR(30) NOT NULL,
+	descripcion_clase VARCHAR(255) NOT NULL DEFAULT 'Still in development',
+
 	multiplicador_fuerza DECIMAL(3,2) DEFAULT 1.00,
 	multiplicador_inteligencia DECIMAL(3,2) DEFAULT 1.00,
 	multiplicador_resistencia DECIMAL(3,2) DEFAULT 1.00,
