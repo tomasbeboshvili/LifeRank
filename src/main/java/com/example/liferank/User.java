@@ -1,6 +1,4 @@
-package com.example.liferank;
-
-import java.io.Serializable;
+import  java.io.Serializable;
 import java.time.LocalDateTime;
 
 public class User implements Serializable {
